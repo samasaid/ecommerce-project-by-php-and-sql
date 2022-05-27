@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+i{
+    color: #0f0f0f;
+}
+/* start login style */
+
+h4{
+    text-align: center;
+    padding: 5px;
+}
+.form-group{
+    margin-bottom: 0px !important;
+    position: relative;
+}
+.form-group .asterisk{
+    position:absolute;
+    top: 11px;
+    right: 5px;
+    color: red
+}
+
+/* end login style */
+
+/*start nav style  */
+.navbar{
+    background-color: #454d55;
+}
+.nav-item{
+    /* padding: 2px; */
+    margin: 0px 0px 0px 15px;
+}
+.nav-link,.navbar-brand{
+    color:rgb(255, 253, 253) !important;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.item-box{
+    position: relative;
+}
+.item-box .price-area{
+    width: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 3px;
+    text-align: center;
+    background-color:white;
+    position: absolute;
+}
+.item-box .card-title{
+    margin: 10px;
+}
+
+.upper-bar{
+    padding: 10px 0px;
+}
+
+.login{
+    max-width: 450px;
+    margin: auto;
+}
+.login .form-group , .signup .form-group{
+    margin-bottom: 10px !important;
+}
+.login h2{
+    margin: 5px;
+    padding: 5px;
+    color: #007bff;
+}
+.signup{
+    max-width: 450px;
+    margin: auto;
+}
+.signup h2{
+    margin: 5px;
+    padding: 5px;
+    color: #28a745;
+}
+.card{
+    margin-top: 20px;;
+}
+.card .card-body{
+    padding: 10px 10px 5px;
+}
+.info .card-body .card-text{
+    padding:5px 3px ;
+    margin: 2px !important; 
+    border-radius: 5px;
+}
+.info .card-body .card-text:nth-child(odd){
+    background-color: #cccbca;
+}
+.info .card-body .card-text span{
+    display: inline-block;
+    width: 150px;
+    padding-left: 5px;
+}
+ 
